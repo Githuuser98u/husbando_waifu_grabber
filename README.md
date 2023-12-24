@@ -71,7 +71,7 @@ use Rarity Number accordingly rarity Map
 - Fill the All variables and Go to heroku. and deploy Your forked Repository
 
 ### Local Deploy/VPS
-- Fill variables in [`config.env`](./shivu/config.env) 
+- Fill variables in [`config.env`](./savvy/config.env) 
 - Open your VPS terminal (we're using Debian based) and run the following:
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y           
@@ -84,7 +84,7 @@ git clone https://github.com/<YourUsername>/WAIFU-HUSBANDO-CATCHER && cd WAIFU-H
 pip3 install -U -r requirements.txt          
 
 sudo apt install tmux && tmux          
-python3 -m shivu
+python3 -m savvy
 ```       
  
 ## License
